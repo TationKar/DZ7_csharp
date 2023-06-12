@@ -10,9 +10,9 @@ using static System.Console;
 Clear();
 
 WriteLine("Введите количество столбцов массива n: ");
-int n = int.Parse(ReadLine());
+int n = int.Parse(ReadLine()!);
 WriteLine("Введите количество строк массива m: ");
-int m = int.Parse(ReadLine());
+int m = int.Parse(ReadLine()!);
 double[,] array = GetArray(m, n);
 PrintArray(array);
 WriteLine();
